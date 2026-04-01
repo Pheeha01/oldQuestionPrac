@@ -9,6 +9,10 @@ input{
     height: 25px;
     margin: 8px;
 }
+.percentages{
+    width: 120px;
+    border: 4px;
+}
 .test1Perc,.test2Perc, .test3Perc,.test4Perc{
     display: none;
 }
