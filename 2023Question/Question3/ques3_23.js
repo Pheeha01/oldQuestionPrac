@@ -10,7 +10,7 @@ pics.addEventListener('click', (e)=>{
         e.target.classList.add("moved")
         let li = document.createElement("li")
         li.textContent= `${e.target.src.slice(-19)} was moved to favorites`;
-        li.classList.add("whatF")
+        li.classList.add("toFav")
         actions.append(li)
     }
 })
@@ -22,7 +22,7 @@ favoriteSection.addEventListener('click', (e)=>{
         e.target.classList.remove("moved")
         let li = document.createElement("li")
         li.textContent= `${e.target.src.slice(-19)} was moved back to album`;
-        li.classList.add("whatA")
+        li.classList.add("fromFav")
         actions.append(li)
     }
 })
