@@ -1,0 +1,24 @@
+legend{
+    background-color: pink;
+}
+#content>p{
+    margin: 5px;
+}
+table, th, td{
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+table{
+    padding: 5px;
+    width: 250px;
+}
+body>div{
+    color: orange;
+}
+fieldset, input, button{
+    border-color: orange;
+    border-width: 1px;
+}
+button{
+    color: orange;
+}
