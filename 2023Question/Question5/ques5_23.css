@@ -1,0 +1,13 @@
+
+.evenItem{
+    background-color: yellow;
+}
+.clicked{
+    border-color: skyblue;
+}
+.remItem{
+    color: red;
+}
+.added{
+    color:green;
+}
